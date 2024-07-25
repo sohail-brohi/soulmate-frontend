@@ -1,0 +1,98 @@
+ /* footer.css */
+.imgDiv {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .qoute {
+    text-align: center;
+    font-size: 1.5em;
+    color: darkblue;
+    font-weight: bold;
+    background-color: #9D2B48;
+    margin: 0px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #9D2B48;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0px;
+    color : black;
+  }
+  
+  .footer-container > div {
+    flex: 2;
+    margin: 0px;
+  }
+  
+  .footer-container img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .social-media,
+  .successful-stories,
+  .about-us,
+  .company-policies {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media h6,
+  .successful-stories h6,
+  .about-us h6,
+  .company-policies h6 {
+    margin-bottom: 10px;
+  }
+  
+  .social-media li,
+  .successful-stories li,
+  .about-us li,
+  .company-policies li {
+    margin: 5px 0;
+  }
+  .social-media a,
+  .successful-stories a,
+  .about-us a,
+  .company-policies a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1em;
+    color: white;
+  }
+  
+  .hadith {
+    text-align: center;
+    margin:auto;
+    font-style: italic;
+
+    background-color: #9D2B48;
+  }
+
+  div :first-child p{
+    color : white;
+  }  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-container > div {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0;
+    }
+  }
+  

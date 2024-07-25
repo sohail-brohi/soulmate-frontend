@@ -1,0 +1,38 @@
+
+.requirement {
+    padding: 15px;
+    border-radius: 2pc;
+    border-color: darkblue;
+    box-shadow:  rgba(0, 0, 250, 0.7);
+    background-color: rgba(255, 255, 255, 0.8); 
+  }
+  
+  h3 {
+    text-align: center;
+    text-shadow: 3cap;
+    padding-bottom: 20px;
+  }
+  
+ .reqForm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color:#9D2B48;
+    padding-left: 0%;
+    margin-right: 5px;
+    height: 650px;
+    image-resolution: 2048px;
+    background-image: url('../image/backimage.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat; 
+  }
+   
+  span {
+    color :red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+}
+ 
+
+
